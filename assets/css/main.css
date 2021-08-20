@@ -102,10 +102,20 @@ video {
   height: 8vh;
 }
 
+.card {
+  background-color: #f4f4f4;
+}
+
 .image-resize {
   object-fit: cover;
   object-position: center center;
   height: 300px;
+}
+
+.carousel-item > img {
+  object-fit: cover;
+  object-position: center center;
+  height: 550px;
 }
 
 article,
